@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <title>Company Website</title>
+    <link rel="shortcut icon" href="https://maxiidea.com/img/icon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        * {
+            font-family: "poppins", sans-serif;
+            /* font-weight: 500; */
+            font-style: normal;
+        }
+
+        .position-relative {
+            position: relative;
+        }
+
+        .btn.dropdown-toggle::after {
+            display: none;
+        }
+
+        .search-icon {
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            transform: translateY(-50%);
+            color: #6c757d;
+            /* Adjust icon color if needed */
+        }
+
+        .search-input {
+            padding-left: 30px;
+            /* Adjust padding to make space for the icon */
+        }
+    </style>
+</head>
+
+<body style="overflow-x: hidden;">
+    <section class="Home-Shop-Section">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 justify-content-start" style="background: #81B656;">
+            <a class="navbar-brand p-4" href="#Home">
+                <img src="images/logoalt3.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col-md-9 mx-5">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="d-flex">
+                        <a class="ms-5"><a class="nav-link text-dark fs-5 fw-normal" href="#Home">Home</a>
+                            <div class="d-flex justify-content-center align-items-center ms-5">
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle fw-normal nav-link fs-5" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Product <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a class="ms-5"><a class="nav-link text-dark fs-5 fw-normal" href="#ContactUs">Contact Us</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="cart-icon d-flex justify-content-end">
+                <i class="fa-solid fa-cart-shopping" style="width: 35px; height: 35px;"></i>
+                <span class="rounded-circle bg-danger text-white text-center fs-5" style="width: 30px; height: 30px; margin-top: -20px; margin-left: -10px;">14</span>
+            </div>
+        </nav>
+
+        <div class="row h-100" style="background:#136206;">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6">
+                    <img src="images/header1.png" alt="" style="width: 961px; height: 761;">
+                </div>
+                <div class="col-md-6">
+                    <div class="mx-5">
+                        <i class="text-white" style="font-size: 6rem;">Lorem Ipsum</i><br>
+                        <i class="text-white" style="font-size: 1.5rem;">Lorem Ipsum is simply dummy text of the</i>
+                        <br>
+                        <i class="text-white" style="font-size: 1.5rem;">printing and typesetting industry. Lorem </i>
+                        <br>
+                        <i class="text-white" style="font-size: 1.5rem;">Ipsum has been the industry's standard</i><br>
+                        <i class="text-white" style="font-size: 1.5rem;">dummy text ever since the 1500s,</i><br>
+                        <button type="button" class="btn btn-primary mt-4" style="width: 200px; height: 50px;">Shopping
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background: #F9A000; height: 4vh;">
+        <div class="d-flex justify-content-center">
+            <img src="images/Vector.png" class="mx-1 my-2" alt="" style="width: 20px; height: 20px;">
+            <i class="text-white fs-6 mt-2">30% off storewide — Limited time!</i>
+            <div class="border-1 border-white border-bottom mx-2 mt-2" style="width: 100px;">
+                <a class="hover-collection-shopalt3 fs-6 text-white" href="#" style="text-decoration: none;">shop now</a>
+                <i class="text-white fa fa-arrow-right"></i>
+            </div>
+        </div>
+    </section>
+    <section class="Shop-Section pt-5" id="produkWowen">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center pt-3">
+                <div class="col-md-9 fs-1">
+                    <div class="text-dark">Top Chart</div>
+                </div>
+
+                <!-- <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div class="align-self-center text-dark position-relative" data-aos="zoom-in" data-aos-delay="700">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" class="form-control search-input" placeholder="search">
+                    </div>
+                </div> -->
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div class="text-dark fs-1 lh-1 fw-light">
+
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel owl-shop py-5">
+                <div class="items4">
+                    <div class="product-card  w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;"
+                                    class="rounded-pill px-3 py-1 fw-bold shadow">NEW</i>
+                                <a href="#" class="heart-button rounded-circle p-2 shadow"
+                                    style="width: 40px; height: 40px; text-align: center;"><i
+                                        class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="card-produk p-2">
+                                    <img src="images/product.png" alt="product" class="card-img-top">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button type="button" class="btn btn-success m-3 w-100 add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items4">
+                    <div class="product-card  w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;"
+                                    class="rounded-pill px-3 py-1 fw-bold shadow">NEW</i>
+                                <a href="#" class="heart-button rounded-circle p-2 shadow"
+                                    style="width: 40px; height: 40px; text-align: center;"><i
+                                        class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="card-produk p-2">
+                                    <img src="images/product.png" alt="product" class="card-img-top">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button type="button" class="btn btn-success m-3 w-100 add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items4">
+                    <div class="product-card  w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;"
+                                    class="rounded-pill px-3 py-1 fw-bold shadow">NEW</i>
+                                <a href="#" class="heart-button rounded-circle p-2 shadow"
+                                    style="width: 40px; height: 40px; text-align: center;"><i
+                                        class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="card-produk p-2">
+                                    <img src="images/product.png" alt="product" class="card-img-top">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button type="button" class="btn btn-success m-3 w-100 add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items4">
+                    <div class="product-card  w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;"
+                                    class="rounded-pill px-3 py-1 fw-bold shadow">NEW</i>
+                                <a href="#" class="heart-button rounded-circle p-2 shadow"
+                                    style="width: 40px; height: 40px; text-align: center;"><i
+                                        class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="card-produk p-2">
+                                    <img src="images/product.png" alt="product" class="card-img-top">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button type="button" class="btn btn-success m-3 w-100 add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="row d-flex justify-content-center align-items-center mt-5 mx-0">
+                <div class="col-md-3">
+                    <div class="product-card mx-auto w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;" class="rounded-pill px-3 py-1 fw-bold shadow">NEW</i>
+                                <a href="#" class="heart-button rounded-circle p-2 shadow" style="width: 40px; height: 40px; text-align: center;"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="card-produk p-3">
+                                    <img src="images/produkgambar.png" alt="product" class="card-img-top">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button type="button" class="btn btn-dark m-3 w-100 add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card mx-auto w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;" class="rounded-pill px-3 py-1 fw-bold shadow">NEW</i>
+                                <a href="#" class="heart-button rounded-circle p-2 shadow" style="width: 40px; height: 40px; text-align: center;"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="card-produk p-3">
+                                    <img src="images/produkgambar.png" alt="product" class="card-img-top">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button type="button" class="btn btn-dark m-3 w-100 add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card mx-auto w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;" class="rounded-pill px-3 py-1 fw-bold shadow">NEW</i>
+                                <a href="#" class="heart-button rounded-circle p-2 shadow" style="width: 40px; height: 40px; text-align: center;"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="card-produk p-3">
+                                    <img src="images/produkgambar.png" alt="product" class="card-img-top">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button type="button" class="btn btn-dark m-3 w-100 add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card mx-auto w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;" class="rounded-pill px-3 py-1 fw-bold shadow">NEW</i>
+                                <a href="#" class="heart-button rounded-circle p-2 shadow" style="width: 40px; height: 40px; text-align: center;"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="card-produk p-3">
+                                    <img src="images/produkgambar.png" alt="product" class="card-img-top">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button type="button" class="btn btn-dark m-3 w-100 add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row d-flex justify-content-center align-items-center mt-5">
+                <div class="col-md-5 fs-1">
+                    <div class="text-dark">Shop by Categories</div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div class="dropdown">
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div class="align-self-center">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-2 mx-auto">
+                    <img src="images/header1.png" class="rounded-circle" alt="" style="width: 190px; height: 190px;">
+
+                </div>
+                <div class="col-md-2 mx-auto">
+                    <img src="images/header1.png" class="rounded-circle" alt="" style="width: 190px; height: 190px;">
+
+                </div>
+                <div class="col-md-2 mx-auto">
+                    <img src="images/header1.png" class="rounded-circle" alt="" style="width: 190px; height: 190px;">
+
+                </div>
+                <div class="col-md-2 mx-auto">
+                    <img src="images/header1.png" class="rounded-circle" alt="" style="width: 190px; height: 190px;">
+
+                </div>
+                <div class="col-md-2 mx-auto">
+                    <img src="images/header1.png" class="rounded-circle" alt="" style="width: 190px; height: 190px;">
+
+                </div>
+                <div class="col-md-2 mx-auto">
+                    <img src="images/header1.png" class="rounded-circle" alt="" style="width: 190px; height: 190px;">
+
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-2 mx-auto mt-3 fs-6 fw-bold"><i>Lorem Ipsum</i></div>
+                <div class="col-md-2 mx-auto mt-3 fs-6 fw-bold"><i>Lorem Ipsum</i></div>
+                <div class="col-md-2 mx-auto mt-3 fs-6 fw-bold"><i>Lorem Ipsum</i></div>
+                <div class="col-md-2 mx-auto mt-3 fs-6 fw-bold"><i>Lorem Ipsum</i></div>
+                <div class="col-md-2 mx-auto mt-3 fs-6 fw-bold"><i>Lorem Ipsum</i></div>
+                <div class="col-md-2 mx-auto mt-3 fs-6 fw-bold"><i>Lorem Ipsum</i></div>
+            </div>
+
+            <div class="row my-5">
+                <a href="#" class="fw-bold text-center" style="text-decoration: none;">PROMOTION</a>
+                <h1 class="fw-semibold text-center mt-2">Lorem Ipsum</h1>
+                <i class="fw-medium text-center">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.</i>
+                <div class="col-md-12">
+                    <a href="https://youtu.be/dQw4w9WgXcQ?si=KMsDCZAM048Ezt4w" target="_blank"
+                        style="display: inline-block;">
+                        <img src="images/video.png" class="mt-5" alt="Video Thumbnail"
+                            style="border-radius: 23px; display: block;">
+                    </a>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center  pt-3">
+                <div class="col-md-3 fs-1 ">
+                    <div class="text-dark fw-bold">Our Product</div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+
+                </div>
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div class="align-self-center text-dark position-relative">
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <!-- <div class="text-dark lh-1 fw-light d-flex">
+                        <div class="align-self-center text-dark position-relative">
+                            <i class="fw-bold me-5">282+ items</i>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle fw-normal" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Sort <i class="fas fa-sort"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle fw-normal" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Filter <i class="fas fa-filter"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center mt-5 mx-0">
+                <div class="col-md-3">
+                    <div class="product-card mx-auto w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;" class="rounded px-3 shadow">HOT</i>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="images/product.png" style="width: 262px; height: 349px;" alt="Product"
+                                    class="card-img-top">
+                            </div>
+                            <!-- <div class="d-flex justify-content-center align-items-center p-4">
+                            </div> -->
+                        </div>
+                        <div class="mt-3">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card mx-auto w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;" class="rounded px-3 shadow">HOT</i>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="images/header1.png" style="width: 262px; height: 349px;" alt="Product Image"
+                                    class="card-img-top">
+                            </div>
+                            <!-- <div class="d-flex justify-content-center align-items-center p-4">
+                            </div> -->
+                        </div>
+                        <div class="mt-3">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card mx-auto w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;" class="rounded px-3 shadow">HOT</i>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="images/product.png" style="width: 262px; height: 349px;" alt="Product Image"
+                                    class="card-img-top">
+                            </div>
+                            <!-- <div class="d-flex justify-content-center align-items-center p-4">
+                            </div> -->
+                        </div>
+                        <div class="mt-3">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card mx-auto w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;" class="rounded px-3 shadow">HOT</i>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="images/product.png" style="width: 262px; height: 349px;" alt="Product Image"
+                                    class="card-img-top">
+                            </div>
+                            <!-- <div class="d-flex justify-content-center align-items-center p-4">
+                            </div> -->
+                        </div>
+                        <div class="mt-3">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center mt-5 mx-0">
+                <div class="col-md-3">
+                    <div class="product-card mx-auto w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;" class="rounded px-3 shadow">HOT</i>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="images/product.png" style="width: 262px; height: 349px;" alt="Product Image"
+                                    class="card-img-top">
+                            </div>
+                            <!-- <div class="d-flex justify-content-center align-items-center p-4">
+                            </div> -->
+                        </div>
+                        <div class="mt-3">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card mx-auto w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;" class="rounded px-3 shadow">HOT</i>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="images/product.png" style="width: 262px; height: 349px;" alt="Product Image"
+                                    class="card-img-top">
+                            </div>
+                            <!-- <div class="d-flex justify-content-center align-items-center p-4">
+                            </div> -->
+                        </div>
+                        <div class="mt-3">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card mx-auto w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;" class="rounded px-3 shadow">HOT</i>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="images/product.png" style="width: 262px; height: 349px;" alt="Product Image"
+                                    class="card-img-top">
+                            </div>
+                            <!-- <div class="d-flex justify-content-center align-items-center p-4">
+                            </div> -->
+                        </div>
+                        <div class="mt-3">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card mx-auto w-100" style="height: 459px;">
+                        <div class="product-card-inner" style="background-color: #F3F5F7; position: relative;">
+                            <div class="p-2 d-flex justify-content-between align-items-between">
+                                <i style="background-color: #ffffff;" class="rounded px-3 shadow">HOT</i>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="images/product.png" style="width: 262px; height: 349px;" alt="Product Image"
+                                    class="card-img-top">
+                            </div>
+                            <!-- <div class="d-flex justify-content-center align-items-center p-4">
+                            </div> -->
+                        </div>
+                        <div class="mt-3">
+                            <div class="rating-star d-flex pb-2 pe-2">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                            </div>
+                            <h5 class="card-title fs-6">Skullcandy - Crusher anc 2 wireless headphones</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="position-relative">
+                            <div class="bg-light" style="height: 664px;">
+                                <img src="images/header1.png" class="w-100 h-100 object-fit-cover" alt="">
+                                <div class="position-absolute top-50 start-50 translate-middle text-white">
+                                    <div class="p-5">
+                                        <h1>Planter Bag</h1>
+                                        <div class="border border-bottom" style="width: 150px;">
+                                            <a class="fw-bold fs-5 text-white text-decoration-none" href="#">Collection</a>
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="position-relative">
+                            <div class="bg-light" style="height: 664px;">
+                                <img src="images/product.png" class="w-100 h-100 object-fit-cover" alt="">
+                                <div class="position-absolute top-50 start-50 translate-middle text-white">
+                                    <div class="p-5">
+                                        <h1>Planter Bag</h1>
+                                        <div class="border border-bottom" style="width: 150px;">
+                                            <a class="fw-bold fs-5 text-white text-decoration-none" href="#">Collection</a>
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="position-relative">
+                            <div class="bg-light" style="height: 664px;">
+                                <img src="images/header1.png" class="w-100 h-100 object-fit-cover" alt="">
+                                <div class="position-absolute top-50 start-50 translate-middle text-white">
+                                    <div class="p-5">
+                                        <h1>Planter Bag</h1>
+                                        <div class="border border-bottom" style="width: 150px;">
+                                            <a class="fw-bold fs-5 text-white text-decoration-none" href="#">Collection</a>
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="position-relative">
+                            <div class="bg-light" style="height: 664px;">
+                                <img src="images/product.png" class="w-100 h-100 object-fit-cover" alt="">
+                                <div class="position-absolute top-50 start-50 translate-middle text-white">
+                                    <div class="p-5">
+                                        <h1>Planter Bag</h1>
+                                        <div class="border border-bottom" style="width: 150px;">
+                                            <a class="fw-bold fs-5 text-white text-decoration-none" href="#">Collection</a>
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="position-relative">
+                            <div class="bg-light" style="height: 664px; position: relative;">
+                                <img src="images/header1.png" class="w-100 h-100 object-fit-cover" alt="">
+                                <div class="position-absolute bottom-0 start-0 p-5 text-white">
+                                    <h1>Planter Bag</h1>
+                                    <div class="border-1 border-bottom" style="width: 150px;">
+                                        <a class="hover-collection-alt3 fw-bold fs-5 text-white text-decoration-none" href="#">Collection</a>
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="position-relative">
+                            <div class="bg-light" style="height: 664px; position: relative;">
+                                <img src="images/product.png" class="w-100 h-100 object-fit-cover" alt="">
+                                <div class="position-absolute bottom-0 start-0 p-5 text-white">
+                                    <h1>Planter Bag</h1>
+                                    <div class="border-1 border-bottom" style="width: 150px;">
+                                        <a class="hover-collection-alt3 fw-bold fs-5 text-white text-decoration-none" href="#">Collection</a>
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="position-relative">
+                            <div class="bg-light" style="height: 664px; position: relative;">
+                                <img src="images/header1.png" class="w-100 h-100 object-fit-cover" alt="">
+                                <div class="position-absolute bottom-0 start-0 p-5 text-white">
+                                    <h1>Planter Bag</h1>
+                                    <div class="border-1 border-bottom" style="width: 150px;">
+                                        <a class="hover-collection-alt3 fw-bold fs-5 text-white text-decoration-none" href="#">Collection</a>
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="position-relative">
+                            <div class="bg-light" style="height: 664px; position: relative;">
+                                <img src="images/product.png" class="w-100 h-100 object-fit-cover" alt="">
+                                <div class="position-absolute bottom-0 start-0 p-5 text-white">
+                                    <h1>Planter Bag</h1>
+                                    <div class="border-1 border-bottom" style="width: 150px;">
+                                        <a class="hover-collection-alt3 fw-bold fs-5 text-white text-decoration-none" href="#">Collection</a>
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row my-5">
+                <div class="col-md-3 fs-1 ">
+                    <div class="text-dark fw-bold">Latest Articles</div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+
+                </div>
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div class="align-self-center position-relative">
+                        <div class="border-1 border-dark border-bottom mx-2 mt-2" style="width: 100px;">
+                            <a class="hover-collection-shopalt3 text-dark fs-6" href="#" style="text-decoration: none;">shop now</a>
+                            <i class=" fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-5">
+                <div class="col-md-4">
+                    <img src="images/img1.png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/img2.png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/img3.png" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-md-4 fs-5 mt-3">
+                        <i>Lorem Ipsum</i>
+                    </div>
+                    <div class="col-md-4 fs-5 mt-3 mx-2">
+                        <i>Lorem Ipsum</i>
+                    </div>
+                    <div class="col-md-3 fs-5 mt-3">
+                        <i>Lorem Ipsum</i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="border-1 border-dark border-bottom mx-0 mt-2" style="width: 110px;">
+                            <a class="hover-collection-shopalt3 text-dark fs-6" href="#" style="text-decoration: none;">Read More</a>
+                            <i class=" fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="border-1 border-dark border-bottom mx-2 mt-2" style="width: 110px;">
+                            <a class="hover-collection-shopalt3 text-dark fs-6" href="#" style="text-decoration: none;">Read More</a>
+                            <i class=" fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="border-1 border-dark border-bottom mx-3 mt-2" style="width: 110px;">
+                            <a class="hover-collection-shopalt3 text-dark fs-6" href="#" style="text-decoration: none;">Read More</a>
+                            <i class=" fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center align-items-center mt-5 pt-5">
+                <div class="col-md-3 text-start">
+                    <img src="images/fastdelivery.png" alt="">
+                </div>
+                <div class="col-md-3 text-start">
+                    <img src="images/money.png" alt="">
+                </div>
+                <div class="col-md-3 text-start">
+                    <img src="images/key.png" alt="">
+                </div>
+                <div class="col-md-3 text-start">
+                    <img src="images/Rectangle 77.png" alt="">
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-3 fw-medium text-start "><i>Free Shipping</i></div>
+                    <div class="col-md-3 fw-medium text-start "><i>Money-Back</i></div>
+                    <div class="col-md-3 fw-medium text-start "><i>Secure Payments</i></div>
+                    <div class="col-md-3 fw-medium text-start "><i>24/7 Support</i></div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-3 fw-light"><i>Order above $200</i></div>
+                    <div class="col-md-3 fw-light"><i>30 days guarantee</i></div>
+                    <div class="col-md-3 fw-light"><i>Secured by stripe</i></div>
+                    <div class="col-md-3 fw-light"><i>Phone and Email support</i></div>
+                </div>
+            </div>
+
+            <!-- <div class="col-md-6 justify-content-center align-items-center mx-0 px-0">
+                    <div class="">  
+                        <div class="col-md-12">
+                            <div class="position-relative" style="background-color: #F3F5F7; width: 635px; height: 319px;" data-aos="zoom-in" data-aos-delay="1200">
+                                <div class="position-absolute start-0 bottom-0 p-4">
+                                    <h1>Planter Bag Custom</h1>
+                                    <div class="border-1 border-black border-bottom" style="width: 150px;">
+                                        <a class="hover-collection-shopalt3 fw-bold fs-5" href="#">Collection</a>
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                                <img src="images/tas.png" class="w-100 h-100 object-fit-cover" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="position-relative" style="background-color: #F3F5F7; width: 635px; height: 319px;" data-aos="zoom-in" data-aos-delay="1400">
+                                <div class="position-absolute start-0 bottom-0 p-4">
+                                    <h1>Accesories</h1>
+                                    <div class="border-1 border-black border-bottom" style="width: 150px;">
+                                        <a class="hover-collection-shopalt3 fw-bold fs-5" href="#">Collection</a>
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                                <img src="images/pputibgam.png" class="w-100 h-100 object-fit-cover" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+            <!-- <div class="row row d-flex justify-content-center align-items-center mt-4">
+                <div class="position-absolute start-0 p-0">
+                    <img src="images/supersale.png" alt="" style="width: 800px;"  >
+                </div>
+                <div class="col-md-6">
+                    
+                </div>
+                <div class="col-md-6 position-relative" style="background-color: #2F318B; width: 620px; height: 532px;">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-start align-items-start p-5">
+                            <div class="text-white">
+                                <div class="p-1 py-2">
+                                    <i class="">PROMOTION<br></i>
+                                </div>
+                                <div class="p-1 py-2">
+                                    <i class="fs-2 fw-bold">Hurry up! 40% OFF</i>
+                                </div>
+                                <div class="fs-6">
+                                    <i>Thousand of high tech are waiting for you</i>
+                                </div>
+                                <p class="pt-5">Offer expires in:</p>
+                                <div class="d-flex">
+                                    <div class="p-2 px-4">
+                                        <div class="bg-white" style="width: 60px; height:60px;">
+                                        </div>
+                                        <p class="text-center">days</p>
+                                    </div>
+                                    <div class="p-2 px-4">
+                                        <div class="bg-white" style="width: 60px; height:60px;">
+                                        </div>
+                                        <p class="text-center">Hours</p>
+                                    </div>
+                                    <div class="p-2 px-4">
+                                        <div class="bg-white" style="width: 60px; height:60px;">
+                                        </div>
+                                        <p class="text-center">Minutes</p>
+                                    </div>
+                                    <div class="p-2 px-4">
+                                        <div class="bg-white" style="width: 60px; height:60px;">
+                                        </div>
+                                        <p class="text-center">Seconds</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-danger px-5">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="footer-shop-section position-relative pb-4">
+        <footer>
+            <div class="container my-2 text-white">
+                <footer class="text-center text-lg-start mt-xl-5 pt-4">
+                    <img src="images/logoalt3.png" alt="" style="width: 11%;">
+                    <!-- Grid container -->
+                    <div class="container p-4">
+                        <!--Grid row-->
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                                <ul class="list-unstyled mb-4">
+                                    <li>
+                                        <i href="#!" class="text-white" style="line-height: 1.4;">43111 Hai Trieu street,</i>
+                                    </li>
+                                    <li>
+                                        <i href="#!" class="text-white" style="line-height: 3;">District 1, HCMC</i>
+                                    </li>
+                                    <li>
+                                        <i href="#!" class="text-white" style="line-height: 3;">Vietnam</i>
+                                    </li>
+                                    <li>
+                                        <i href="#!" class="text-white" style="line-height: 3;">84-756-3237</i>
+                                    </li>
+                                </ul>
+                                <a href="#"><img src="images/instagram.png" alt=""></a>
+                                <a href="#"><img src="images/facebook.png" class="mx-4" alt=""></a>
+                                <a href="#"><img src="images/youtube.png" alt=""></a>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                                <h5 class=" mb-4">Page</h5>
+
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!" class="text-white" style="line-height: 3; text-decoration: none;">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="text-white" style="line-height: 3; text-decoration: none;">Product</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="text-white" style="line-height: 3; text-decoration: none;">Articles</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="text-white" style="line-height: 3; text-decoration: none;">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                                <h5 class="mb-4">Info</h5>
+
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!" class="text-white" style="line-height: 3; text-decoration: none;">Shipping Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="text-white" style="line-height: 3; text-decoration: none;">Return and Refund</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="text-white" style="line-height: 3; text-decoration: none;">Support</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="text-white" style="line-height: 3; text-decoration: none;">FAQs</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-3 col-md-6 mb-lg-0">
+                                <h5 class="mb-4">Join Newsletter</h5>
+
+                                <i>Subscribe our newsletter to get more deals, new products and promotions</i>
+                                <div class="form-outline-white form-white mb-4 mt-3">
+                                    <input type="email" id="form5Example2" placeholder="Enter your Email" class="form-control"/>
+                                    <button type="button" class="circle-button">
+                                        <i class="fa fa-arrow-right"></i> <!-- Optional icon inside the button -->
+                                    </button>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+                    </div>
+                    <!-- Grid container -->
+
+                    <!-- Copyright -->
+                    <div class="container">
+                        <div class="row p-3 border-top border-secondary footer-content">
+                            <div class="col-md-8">
+                                <span>Copyright © 2023 3legant. All rights reserved</span>
+                                <i class="mx-2" style="color: grey;">|</i>
+                                <span>Privacy Policy</span>
+                                <i class="mx-1">Terms & Conditions</i>
+                            </div>
+                            <div class="col-md-4 text-right footer-icons">
+                                <img src="images/visa.png" alt="Visa">
+                                <img src="images/american.png" alt="American Express">
+                                <img src="images/niaga.png" alt="Niaga">
+                                <img src="images/stripe.png" alt="Stripe">
+                                <img src="images/paypal.png" alt="PayPal">
+                                <img src="images/applepay.png" alt="Apple Pay">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Copyright -->
+                </footer>
+
+            </div>
+            <!-- <div class="container">
+                <div class="row d-flex justify-content-center align-items-center pt-4 p-3">
+                    <div class="col-md-2 d-flex justify-content-start align-items-center">
+                        <div class="align-self-center text-white">
+                            <a href="trustshop.html" type="button" class="d-flex" style="text-decoration: none; font-size: 1rem; color: #ffffff;"><i class="fa-solid fa-bag-shopping pe-2 pt-1"></i>Shop</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <div class="d-flex align-self-center text-white">
+                            <a href="#AboutCompany" type="button" class="d-flex px-4" style="text-decoration: none; font-size: 1rem; color: #ffffff;">About Company</a>
+                            <a href="#Product" type="button" class="d-flex px-4" style="text-decoration: none; font-size: 1rem; color: #ffffff;">Product</a>
+                            <a href="#Career" type="button" class="d-flex px-4" style="text-decoration: none; font-size: 1rem; color: #ffffff;">Career</a>
+                            <a href="#Contact" type="button" class="d-flex px-4" style="text-decoration: none; font-size: 1rem; color: #ffffff;">Contact</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 d-flex justify-content-center align-items-center">
+                    </div>
+                    <div class="col-md-3 position-absolute end-0 p-0 ">
+                        <a type="button" class="rounded-start-2 bg-light d-flex align-items-center justify-content-center p-3" style="text-decoration: none; font-size: 1rem; color: #2F318B;"><img src="images/icon/Message.svg" alt="Icon">Customer Service</a>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center pt-5 mt-3 p-3">
+                    <div class="col-md-12 p-5">
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center p-1">
+                    <div class="col-md-4">
+                        <i class="text-white">Privacy Policy</i>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <button type="button" class="btn btn-danger mx-2 p-2">Instagram</button>
+                        <button type="button" class="btn btn-primary mx-2 p-2 ">Facebook</button>
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center p-1">
+                    <div class="col-md-4 d-flex justify-content-center align-items-center" style=" border-top: 1px solid #ffffff;">
+                        <div class="border-2 align-self-center text-dark border-bottom"></div>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-items-center" style=" border-top: 1px solid #ffffff;">
+                        <div class="border-2 align-self-center text-dark border-bottom"></div>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-items-center" style=" border-top: 1px solid #ffffff;">
+                        <div class="border-2 align-self-center text-dark border-bottom"></div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center p-1">
+                    <div class="col-md-4">
+                        <i class="text-white">© 2023 ABSOLUT GREEN LLC</i>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <i class="text-white">Berliner Innenstadt, 10249 Berlin, Germany</i>
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center p-1">
+                    <div class="col-md-4 d-flex justify-content-center align-items-center" style=" border-top: 1px solid #ffffff;">
+                        <div class="border-2 align-self-center text-dark border-bottom"></div>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-items-center" style=" border-top: 1px solid #ffffff;">
+                        <div class="border-2 align-self-center text-dark border-bottom"></div>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-items-center" style=" border-top: 1px solid #ffffff;">
+                        <div class="border-2 align-self-center text-dark border-bottom"></div>
+                    </div>
+                </div>
+            </div> -->
+        </footer>
+    </section>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-shop").owlCarousel({
+                items: 4,
+                loop: true,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 4
+                    }
+                },
+                onInitialized: function (event) {
+                    $('.owl-shop .items4').css('width', '279px');
+                },
+                onResized: function (event) {
+                    $('.owl-shop .items4').css('width', '279px');
+                }
+            });
+        });
+    </script>
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Link Custom JS -->
+    <script src="js/style.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
